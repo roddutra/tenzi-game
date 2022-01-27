@@ -83,20 +83,24 @@ export default function Main(props) {
         />
       ) : (
         <div className='relative flex flex-col gap-5'>
-          <span className='absolute text-lg -top-2 -right-2' onClick={restart}>
+          <span
+            className='absolute text-lg cursor-pointer -top-2 -right-2'
+            title='Restart'
+            onClick={restart}
+          >
             <BsArrowCounterclockwise />
           </span>
-          <h1 className='text-3xl font-bold text-center'>Tenzies</h1>
+          <h1 className='text-3xl font-bold text-center'>Tenzi Dice Game</h1>
           <p className='text-center font-inter'>
-            Roll until all dice are the same. Click each die to freeze it at its
-            current value between rolls.
+            Pick a number and click the dice that match to collect it. Roll the
+            dice and continue until you have all 10 dice in your collection.
           </p>
           <div className='flex flex-wrap justify-center'>{numberElements}</div>
           <button
             className='self-center text-2xl text-white rounded-md p-4 bg-tenzies-blue hover:bg-[#5B42FF] drop-shadow-md'
             onClick={rollDice}
           >
-            Roll
+            Roll <span className='animate-spin'>🎲</span>
           </button>
           {
             <div className='self-center text-xs font-inter'>

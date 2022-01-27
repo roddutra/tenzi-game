@@ -22,7 +22,7 @@ export default function Completed(props) {
         className='self-center text-xl text-white rounded-md p-4 bg-tenzies-blue hover:bg-[#5B42FF] drop-shadow-md'
         onClick={props.restart}
       >
-        Play Again
+        Play again
       </button>
     </div>
   );

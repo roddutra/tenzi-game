@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Tenzi Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Tenzi Game is a super simple app in React where the player needs to roll the dice until all 10 die are of the same number. The less dice rolled the higher the score.
 
-## Available Scripts
+I built this app just to refresh my knowledge in React and give [Tailwind](https://tailwindcss.com) CSS a try.
+
+## Live Demo
+
+You can give it a try on a demo deployed to Vercel: [live demo](https://github.com/roddutra/tenzi-game)
+
+## Running the project
 
 In the project directory, you can run:
 
-### `npm start`
+```
+yarn install
+yarn start
+```
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tools used
 
-### `npm test`
+This project was created with React using [`create-react-app`](https://create-react-app.dev) and uses the following packages:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Tailwind CSS](https://tailwindcss.com): utility-first CSS framework to make the UI look nice without having to reinvent the (CSS) wheel
+- [Nano ID](https://github.com/ai/nanoid): to generate a unique ID for each die to be able to use it as the element's key
+- [React-Icons](https://react-icons.github.io/react-icons/): to use icons from a ton of different icon libraries
+- [React Confetti](): for the confetti animation at the end of the game 🎉
