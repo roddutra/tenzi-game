@@ -4,6 +4,10 @@ The Tenzi Game is a super simple app in React where the player needs to roll the
 
 I built this app just to refresh my knowledge in React and give [Tailwind](https://tailwindcss.com) CSS a try.
 
+## Screenshot
+
+![Tenzi Game Screenshot](src/images/demo-screenshot.png)
+
 ## Live Demo
 
 You can give it a try on a demo deployed to Vercel: [live demo](https://tenzies-game-teal.vercel.app/)

@@ -93,7 +93,8 @@ export default function Main(props) {
           <h1 className='text-3xl font-bold text-center'>Tenzi Dice Game</h1>
           <p className='text-center font-inter'>
             Pick a number and click the dice that match to collect it. Roll the
-            dice and continue until you have all 10 dice in your collection.
+            dice and continue until you have collected all 10 of your chosen
+            number.
           </p>
           <div className='flex flex-wrap justify-center'>{numberElements}</div>
           <button
