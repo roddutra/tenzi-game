@@ -6,7 +6,7 @@ export default function Completed(props) {
       <div className='absolute top-0 left-0 w-screen h-screen'>
         <Confetti width={window.innerWidth} height={window.innerHeight} />
       </div>
-      <h1 className='self-center text-4xl text-center'>You did it!</h1>
+      <h1 className='self-center text-4xl text-center'>Tenzi! 📣</h1>
       <p className='text-center font-inter'>
         You rolled the dice{' '}
         <span className='text-lg font-bold'>{props.diceRolled} times</span> 🎲{' '}

@@ -75,6 +75,7 @@ export default function Main(props) {
       {showModal && (
         <Modal setShowModal={setShowModal} numberSelected={numberSelected} />
       )}
+
       {numbersRemaining === 0 ? (
         <Completed
           diceRolled={diceRolled}
@@ -90,19 +91,23 @@ export default function Main(props) {
           >
             <BsArrowCounterclockwise />
           </span>
+
           <h1 className='text-3xl font-bold text-center'>Tenzi Dice Game</h1>
           <p className='text-center font-inter'>
             Pick a number and click the dice that match to collect it. Roll the
             dice and continue until you have collected all 10 of your chosen
             number.
           </p>
+
           <div className='flex flex-wrap justify-center'>{numberElements}</div>
+
           <button
             className='self-center text-2xl text-white rounded-md p-4 bg-tenzies-blue hover:bg-[#5B42FF] drop-shadow-md'
             onClick={rollDice}
           >
             Roll <span className='animate-spin'>🎲</span>
           </button>
+
           {
             <div className='self-center text-xs font-inter'>
               {diceRolled === 1

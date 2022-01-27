@@ -1,6 +1,6 @@
 # Tenzi Game
 
-The Tenzi Game is a super simple app in React where the player needs to roll the dice until all 10 die are of the same number. Try and get all 10 in the least amount of dice rolled as possible.
+The Tenzi Game, inspired by the [IRL dice game](https://ilovetenzi.com/product/tenzi-dice-game/), is a super simple app in React where the player needs to roll the dice until all 10 die are of the same number. Try and get all 10 in the least amount of dice rolled as possible.
 
 I built this app just to refresh my knowledge in React and give [Tailwind](https://tailwindcss.com) CSS a try.
 
