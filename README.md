@@ -10,7 +10,7 @@ I built this app just to refresh my knowledge in React and give [Tailwind](https
 
 ## Live Demo
 
-You can give it a try on a demo deployed to Vercel: [live demo](https://tenzies-game-teal.vercel.app/)
+You can give it a try on a demo deployed to Vercel: [live demo](https://tenzi-game-roddutra.vercel.app)
 
 ## Running the project
 
