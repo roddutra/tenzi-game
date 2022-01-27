@@ -6,7 +6,14 @@ export default function Footer() {
     <div className='absolute bottom-0 right-0 flex flex-col px-4 py-1 text-sm bg-slate-50 font-inter rounded-tl-xl'>
       <div className='items-center justify-center inline gap-1 text-center'>
         Made with <FaHeart className='inline text-red-500' /> by{' '}
-        <span className='font-bold'>Rod Dutra</span>
+        <a
+          href='https://roddutra.com'
+          target='_blank'
+          rel='noreferrer'
+          className='font-bold'
+        >
+          Rod Dutra
+        </a>
       </div>
       <div className='inline-flex justify-center gap-1'>
         <span>with</span>
