@@ -23,7 +23,7 @@ export default function Main(props) {
   const [showModal, setShowModal] = useState(false);
 
   function getRandomDie() {
-    return Math.floor(Math.random() * 10) + 1;
+    return Math.floor(Math.random() * 6) + 1;
   }
 
   function freezeDie(number) {
