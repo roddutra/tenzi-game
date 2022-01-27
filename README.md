@@ -30,4 +30,4 @@ This project was created with React using [`create-react-app`](https://create-re
 - [Tailwind CSS](https://tailwindcss.com): utility-first CSS framework to make the UI look nice without having to reinvent the (CSS) wheel
 - [Nano ID](https://github.com/ai/nanoid): to generate a unique ID for each die to be able to use it as the element's key
 - [React-Icons](https://react-icons.github.io/react-icons/): to use icons from a ton of different icon libraries
-- [React Confetti](): for the confetti animation at the end of the game 🎉
+- [React Confetti](https://github.com/alampros/react-confetti): for the confetti animation at the end of the game 🎉
